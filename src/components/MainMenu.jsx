@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import styles from '../styles/MainMenu.module.css'
 import GetStarted from './GetStarted';
 import Link from 'next/link';
 
@@ -18,14 +17,14 @@ export default function MainMenu() {
         window.addEventListener('scroll', scrollHandle);
     }, []);
     return (
-        <div className={mainMenuState === 'down' ? `${styles.main_menu_wrapper} ${styles.main_menu_wrapper_down}` : styles.main_menu_wrapper}>
+        <div className={mainMenuState === 'down' ? 'main_menu_wrapper main_menu_wrapper_down' : 'main_menu_wrapper'}>
             <div className='container'>
-                <nav className={styles.main_menu}>
+                <nav className='main_menu'>
                     <Link href='/'><img src="/images/logo-white.svg" alt="blueket" /></Link>
-                    <ul className={mainMenuState === 'down' ? `${styles.main_menu_links} ${styles.main_menu_links_down}` : styles.main_menu_links}>
+                    <ul className={mainMenuState === 'down' ? 'main_menu_links main_menu_links_down' : 'main_menu_links'}>
                         <li>
                             Demo <i className="bi bi-caret-down"></i>
-                            <ul className={styles.main_submenu_links}>
+                            <ul className='main_submenu_links'>
                                 <li><Link href='/'>All Demo</Link></li>
                                 <li><Link href='/'>Marketing Agency</Link></li>
                                 <li><Link href='/'>Web Design</Link></li>
@@ -39,14 +38,14 @@ export default function MainMenu() {
                         </li>
                         <li>
                             About Us <i className="bi bi-caret-down"></i>
-                            <ul className={styles.main_submenu_links}>
+                            <ul className='main_submenu_links'>
                                 <li><Link href='/'>About Page 1</Link></li>
                                 <li><Link href='/'>About Page 2</Link></li>
                             </ul>
                         </li>
                         <li>
                             Services <i className="bi bi-caret-down"></i>
-                            <ul className={styles.main_submenu_links}>
+                            <ul className='main_submenu_links'>
                                 <li><Link href='/'>Service Page 1</Link></li>
                                 <li><Link href='/'>Service Page 2</Link></li>
                                 <li><Link href='/'>Service Page 3</Link></li>
@@ -54,7 +53,7 @@ export default function MainMenu() {
                         </li>
                         <li>
                             Portfolio <i className="bi bi-caret-down"></i>
-                            <ul className={styles.main_submenu_links}>
+                            <ul className='main_submenu_links'>
                                 <li><Link href='/'>Portfolio Page 1</Link></li>
                                 <li><Link href='/'>Portfolio Page 2</Link></li>
                                 <li><Link href='/'>Portfolio Page 3</Link></li>
@@ -62,7 +61,7 @@ export default function MainMenu() {
                         </li>
                         <li>
                             Blogs <i className="bi bi-caret-down"></i>
-                            <ul className={styles.main_submenu_links}>
+                            <ul className='main_submenu_links'>
                                 <li><Link href='/'>Blogs Page 1</Link></li>
                                 <li><Link href='/'>Blogs Page 2</Link></li>
                                 <li><Link href='/'>Blogs Page 3</Link></li>
@@ -70,18 +69,18 @@ export default function MainMenu() {
                         </li>
                         <li>
                             Contact Us <i className="bi bi-caret-down"></i>
-                            <ul className={styles.main_submenu_links}>
+                            <ul className='main_submenu_links'>
                                 <li><Link href='/'>Contact Page 1</Link></li>
                                 <li><Link href='/'>Contact Page 2</Link></li>
                             </ul>
                         </li>
                     </ul>
-                    <div className={styles.main_menu_started}>
-                        <div className={styles.telephone}>
+                    <div className='main_menu_started'>
+                        <div className='telephone'>
                             <Link href='/'><i className="bi bi-telephone-fill"></i></Link>
                         </div>
                         <GetStarted />
-                        <div className={styles.sun}>
+                        <div className='sun'>
                             <Link href='/'><i className="bi bi-brightness-high"></i></Link>
                         </div>
                     </div>

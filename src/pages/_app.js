@@ -1,4 +1,10 @@
 import '@/styles/globals.css'
+import '../styles/getStarted.css'
+import '@/styles/home.css'
+import '../styles/mainMenu.css'
+import '../styles/mainSlider.css'
+import '../styles/secondSlider.css'
+import '../styles/services.css'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
