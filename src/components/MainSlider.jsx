@@ -21,9 +21,9 @@ export default function MainSlider() {
                 <img src="/images/slider-1.jpg" alt="slide 1" />
                 <div className="container">
                     <div className="col-7 main_slide">
-                        <h6>― Creative Agency</h6>
+                        <h6 className='mini_title'>― Creative Agency</h6>
                         <h1>We Are a Bunch of Future Holders, Making the Digital World Better</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dignissimos perspiciatis odio eos quo corrupti veritatis expedita fugit officiis id quia, ipsam recusandae tempore voluptatibus, quasi vel distinctio at consequatur?</p>
+                        <p className='paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dignissimos perspiciatis odio eos quo corrupti veritatis expedita fugit officiis id quia, ipsam recusandae tempore voluptatibus, quasi vel distinctio at consequatur?</p>
                         <GetStarted color='blue' />
                     </div>
                 </div>
@@ -32,7 +32,7 @@ export default function MainSlider() {
                 <img src="/images/slider-2.jpg" alt="slide 2" />
                 <div className="container">
                     <div className="col-7 main_slide">
-                        <h6>― Creative Agency</h6>
+                        <h6 className='mini_title'>― Creative Agency</h6>
                         <h1>We Build Global Experiences That Customers Love</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dignissimos perspiciatis odio eos quo corrupti veritatis expedita fugit officiis id quia, ipsam recusandae tempore voluptatibus, quasi vel distinctio at consequatur?</p>
                         <GetStarted color='blue' />

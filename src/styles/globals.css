@@ -3,7 +3,11 @@
 *,
 a,
 li,
-ul, h1, h6, p, div {
+ul,
+h1,
+h6,
+p,
+div {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -23,4 +27,31 @@ a {
 
 li {
   list-style: none;
+}
+
+.paragraph {
+  font-size: 17px;
+  color: #3e4d68;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #101f38;
+}
+
+.mini_title {
+  font-size: 17px;
+  color: #ff5723;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card_title {
+  font-size: 24px;
+  color: #101f38;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
 }

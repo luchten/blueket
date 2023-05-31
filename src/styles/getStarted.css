@@ -13,7 +13,8 @@
 }
 
 .get_started_blue {
-    background-color: #546DFF !important;
+    background-color: #546DFF;
+    box-shadow: 0 20px 20px rgb(36 0 255/10%);
 }
 
 .get_started_blue:hover {

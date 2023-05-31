@@ -37,14 +37,7 @@
     z-index: -1;
     filter: brightness(50%);
   }
-
-  .main_slide h6 {
-    font-size: 16px;
-    color: #ff5723;    
-    letter-spacing: 2px;
-    font-family: 'Open Sans', sans-serif;
-  }
-
+  
   .main_slide h1 {
     font-size: 55px;
     color: white;
@@ -54,8 +47,6 @@
   }
 
   .main_slide p {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
     color: white;
     margin: 20px 0;
   }

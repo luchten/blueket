@@ -9,7 +9,7 @@ export default function SecondSlider() {
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 750,
+        autoplaySpeed: 1000,
         swipeToSlide: true,
         speed: 1500,
         className: 'second_slider'

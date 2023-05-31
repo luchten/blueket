@@ -3,6 +3,9 @@ import MainMenu from '@/components/MainMenu'
 import MainSlider from '@/components/MainSlider'
 import SecondSlider from '@/components/SecondSlider'
 import Services from '@/components/Services'
+import WhoWeAre from '@/components/WhoWeAre'
+import LatestProjects from '@/components/LatestProjects'
+import Workplace from '@/components/Workplace'
 
 export default function Home() {
   return (
@@ -18,6 +21,9 @@ export default function Home() {
       <MainSlider />      
       <SecondSlider />
       <Services />
+      <WhoWeAre />
+      <LatestProjects />
+      <Workplace />
     </>
   )
 }
