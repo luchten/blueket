@@ -1,0 +1,46 @@
+.latest_projects {
+    padding: 100px 0;
+}
+
+.latest_projects a {
+    color: #101f38;
+}
+
+.latest_projects h1 {
+    margin-bottom: 20px;
+}
+
+.project_card {
+    padding: 0 15px;
+    cursor: grab;
+}
+
+.project_card img {
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 7px 15px 0 rgb(0 0 0/15%);
+    margin-bottom: 20px;
+}
+
+.projects_slider .slick-arrow {
+    border-radius: 100%;
+    box-shadow: 0 7px 15px 0 rgb(0 0 0/15%);
+    width: 40px;
+    height: 40px;
+    background-color: white;    
+    z-index: 1;
+    top: unset;
+    bottom: -70px;
+}
+
+.projects_slider .slick-arrow::before {
+    color: black;
+}
+
+.projects_slider .slick-prev {
+    left: 900px;
+}
+
+.projects_slider .slick-next {
+    right: 900px;
+}
