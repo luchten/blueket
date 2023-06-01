@@ -20,7 +20,7 @@ export default function MainMenu() {
         <div className={mainMenuState === 'down' ? 'main_menu_wrapper main_menu_wrapper_down' : 'main_menu_wrapper'}>
             <div className='container'>
                 <nav className='main_menu'>
-                    <Link href='/'><img src="/images/logo-white.svg" alt="blueket" /></Link>
+                    <Link href='/'><img src={mainMenuState === 'down' ? '/images/logo-black.svg' : '/images/logo-white.svg'} alt="blueket" /></Link>
                     <ul className={mainMenuState === 'down' ? 'main_menu_links main_menu_links_down' : 'main_menu_links'}>
                         <li>
                             Demo <i className="bi bi-caret-down"></i>
