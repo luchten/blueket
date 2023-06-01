@@ -12,7 +12,7 @@
 
 .project_card {
     padding: 0 15px;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .project_card img {

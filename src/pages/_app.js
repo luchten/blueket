@@ -9,6 +9,8 @@ import '../styles/whoWeAre.css'
 import '../styles/latestProjects.css'
 import '../styles/workplace.css'
 import '../styles/whyBlueket.css'
+import '../styles/chooseBlueket.css'
+import '../styles/happyClients.css'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />

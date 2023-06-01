@@ -1,0 +1,28 @@
+.choose_wrapper {
+    background-color: #F6F7FF;
+    padding: 100px 0;
+}
+
+.choose_wrapper h6 {
+    margin-bottom: 20px;
+}
+
+.choose_card {
+    background-color: white;
+    box-shadow: 0 10px 25px -5px rgb(0 0 0/10%);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.choose_card h2 {
+    margin: 20px 0;
+}
+
+.choose_card img {
+    width: 52px;
+    height: 52px;
+}
+
+.choose_row {
+    margin-top: 60px !important;
+}

@@ -1,0 +1,80 @@
+.happy_clients {
+    padding: 100px 0;
+}
+
+.happy_slider {
+    margin-top: 60px;
+    cursor: grab;
+}
+
+.happy_slider div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.happy_card {
+    width: 412px !important;    
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    border: 1px solid #dee2e6;
+    padding: 30px;        
+}
+
+.happy_clients h6 {
+    margin-bottom: 20px;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card_info h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.card_header img {
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.card_rating {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_rating img {
+    width: 40px;
+    height: 40px;
+}
+
+.card_rating i {
+    color: #FFAC5F;
+    font-size: 20px;
+    margin: 0 3px;
+}
+
+.happy_slider .slick-arrow {
+    border-radius: 100%;
+    box-shadow: 0 7px 15px 0 rgb(0 0 0/15%);
+    width: 40px;
+    height: 40px;
+    background-color: white !important;
+    z-index: 2;    
+}
+
+.happy_slider .slick-prev {
+    left: -20px;
+}
+
+.happy_slider .slick-next {
+    right: -20px;
+}
+
+.happy_slider .slick-arrow::before {
+    color: black;    
+}

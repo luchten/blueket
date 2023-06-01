@@ -7,6 +7,8 @@ import WhoWeAre from '@/components/WhoWeAre'
 import LatestProjects from '@/components/LatestProjects'
 import Workplace from '@/components/Workplace'
 import WhyBlueket from '@/components/WhyBlueket'
+import ChooseBlueket from '@/components/ChooseBlueket'
+import HappyClients from '@/components/HappyClients'
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
       <LatestProjects />
       <Workplace />
       <WhyBlueket />
+      <ChooseBlueket />
+      <HappyClients />
     </>
   )
 }
