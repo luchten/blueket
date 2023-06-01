@@ -1,0 +1,65 @@
+.why_blueket {
+    margin: 100px auto;
+}
+
+.why_blueket h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.why_blueket h6 {
+    margin-bottom: 15px;
+}
+
+.why_card {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.why_card:last-child {
+    margin: 0;
+}
+
+.why_card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.why_card img {
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.why_collage {
+    position: relative;
+}
+
+.why_collage img {
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.square_shape {
+    right: 50px;
+    top: 50px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    opacity: .7;
+    background-image: radial-gradient(#3e4d68 2px, transparent 2px);
+    background-size: 16px 16px;
+}
+
+.circle_shape {
+    left: 10px;
+    bottom: -30px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    opacity: .7;
+    background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) 0.8px, #ff5723 1.6px, #ff5723 3px, rgba(255, 255, 255, 0) 3.8px, rgb(255 0 0/0%) 10px);
+    border-radius: 100px;
+}
