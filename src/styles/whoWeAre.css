@@ -3,6 +3,10 @@
     padding: 100px 0;
 }
 
+.who_we_are_wrapper p {
+    margin-bottom: 20px;
+} 
+
 .who_we_are_wrapper h1 {
     margin: 20px 0;
 }
@@ -53,7 +57,7 @@
 }
 
 .buttons {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;    
 }
 

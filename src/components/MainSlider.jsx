@@ -6,6 +6,7 @@ import GetStarted from './GetStarted';
 
 export default function MainSlider() {
     var settings = {
+        pauseOnHover: false,
         dots: true,
         infinite: true,
         speed: 1000,

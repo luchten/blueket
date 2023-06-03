@@ -3,8 +3,7 @@
 }
 
 .happy_slider {
-    margin-top: 60px;
-    cursor: grab;
+    margin-top: 60px;    
 }
 
 .happy_slider div:first-child {
@@ -77,4 +76,24 @@
 
 .happy_slider .slick-arrow::before {
     color: black;    
+}
+
+.read_more {
+    margin: 60px 0 !important;
+}
+
+.read_more h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.review-img img {
+    max-height: 60px;        
+}
+
+.review-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -35,13 +36,15 @@ export default function HappyClients() {
                             </div>
                             <p className="paragraph">When it comes to website development and SEO, Blueket has been the best company Ive worked with so far. We hired them for both of our businesses and have seen a drastic increase in our customer base.</p>
                             <div className="card_rating">
-                                <img src="/images/google.png" alt="" />
+                                <Link href='/'><img src="/images/google.png" alt="" /></Link>
                                 <div>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
+                                    <Link href='/'>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -55,13 +58,15 @@ export default function HappyClients() {
                             </div>
                             <p className="paragraph">When it comes to website development and SEO, Blueket has been the best company Ive worked with so far. We hired them for both of our businesses and have seen a drastic increase in our customer base.</p>
                             <div className="card_rating">
-                                <img src="/images/google.png" alt="" />
+                                <Link href='/'><img src="/images/google.png" alt="" /></Link>
                                 <div>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
+                                    <Link href='/'>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -75,13 +80,15 @@ export default function HappyClients() {
                             </div>
                             <p className="paragraph">When it comes to website development and SEO, Blueket has been the best company Ive worked with so far. We hired them for both of our businesses and have seen a drastic increase in our customer base.</p>
                             <div className="card_rating">
-                                <img src="/images/google.png" alt="" />
+                                <Link href='/'><img src="/images/google.png" alt="" /></Link>
                                 <div>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
+                                    <Link href='/'>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -95,17 +102,32 @@ export default function HappyClients() {
                             </div>
                             <p className="paragraph">When it comes to website development and SEO, Blueket has been the best company Ive worked with so far. We hired them for both of our businesses and have seen a drastic increase in our customer base.</p>
                             <div className="card_rating">
-                                <img src="/images/google.png" alt="" />
+                                <Link href='/'><img src="/images/google.png" alt="" /></Link>
                                 <div>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
+                                    <Link href='/'>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                     </Slider>
+                </div>
+            </div>
+            <div className="row read_more">
+                <div className="col-4">
+                    <h2 className='card_title'>Read More Review on</h2>
+                    <p className="paragraph">Read our clients testimonials all around the web. We deliver quality service that loves everyone.</p>
+                </div>
+                <div className="col-8">
+                    <div className="review-img">
+                        <img src="/images/trustplot.svg" alt="" />
+                        <img src="/images/clutchreview.svg" alt="" />
+                        <img src="/images/appstore.svg" alt="" />
+                    </div>
                 </div>
             </div>
         </div>
