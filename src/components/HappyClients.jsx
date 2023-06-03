@@ -124,9 +124,9 @@ export default function HappyClients() {
                 </div>
                 <div className="col-8">
                     <div className="review-img">
-                        <img src="/images/trustplot.svg" alt="" />
-                        <img src="/images/clutchreview.svg" alt="" />
-                        <img src="/images/appstore.svg" alt="" />
+                        <Link href='/'><img src="/images/trustplot.svg" alt="" /></Link>
+                        <Link href='/'><img src="/images/clutchreview.svg" alt="" /></Link>
+                        <Link href='/'><img src="/images/appstore.svg" alt="" /></Link>
                     </div>
                 </div>
             </div>

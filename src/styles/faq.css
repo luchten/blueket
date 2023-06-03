@@ -1,0 +1,47 @@
+.faq {
+    padding: 100px 0;
+}
+
+.faq h6 {
+    margin-bottom: 20px;
+}
+
+.faq img {
+    width: 85%;
+}
+
+.categoria {
+    margin-top: 50px;
+    padding: 0;
+}
+
+.list_item button {
+    font-weight: normal;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+    text-align: left;    
+}
+
+.item_info {
+    margin-left: 30px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.card_title .bi::before {
+    margin-right: 10px;
+    transition: 0.25s;    
+}
+
+.list_item {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-top: 20px;
+}
+
+.rotate_icon::before {
+    rotate: -180deg;
+}

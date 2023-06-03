@@ -10,6 +10,8 @@ import WhyBlueket from '@/components/WhyBlueket'
 import ChooseBlueket from '@/components/ChooseBlueket'
 import HappyClients from '@/components/HappyClients'
 import News from '@/components/News'
+import Faq from '@/components/Faq'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -32,6 +34,8 @@ export default function Home() {
       <ChooseBlueket />
       <HappyClients />
       <News />
+      <Faq />
+      <Footer />
     </>
   )
 }

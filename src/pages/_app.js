@@ -12,6 +12,8 @@ import '../styles/whyBlueket.css'
 import '../styles/chooseBlueket.css'
 import '../styles/happyClients.css'
 import '../styles/news.css'
+import '../styles/faq.css'
+import '../styles/footer.css'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />

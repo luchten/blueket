@@ -25,7 +25,7 @@ export default function News() {
                             </div>
                             <div className="card_footer">
                                 <p className="paragraph">READ ARTICLE</p>
-                                <i class="bi bi-arrow-right"></i>
+                                <i className="bi bi-arrow-right"></i>
                             </div>
                         </Link>
                     </div>
@@ -42,7 +42,7 @@ export default function News() {
                             </div>
                             <div className="card_footer">
                                 <p className="paragraph">READ ARTICLE</p>
-                                <i class="bi bi-arrow-right"></i>
+                                <i className="bi bi-arrow-right"></i>
                             </div>
                         </Link>
                     </div>
@@ -59,7 +59,7 @@ export default function News() {
                             </div>
                             <div className="card_footer">
                                 <p className="paragraph">READ ARTICLE</p>
-                                <i class="bi bi-arrow-right"></i>
+                                <i className="bi bi-arrow-right"></i>
                             </div>
                         </Link>
                     </div>
