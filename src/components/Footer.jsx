@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-6 career_col">
-                        <img src="/images/logo-black.svg" alt="" />
+                        <Link href='/'><img src="/images/logo-black.svg" alt="" /></Link>
                         <p className="paragraph">Career</p>
                         <Link href='/' className='hiring'>
                             <img src="/images/career.png" alt="" />
@@ -45,27 +45,82 @@ export default function Footer() {
                         </div>
                         <div className="row badges ">
                             <div className="col text-center">
-                                <img src="/images/award-badge-1.png" alt="" />
-                                <img src="/images/award-badge-2.png" alt="" />
-                                <img src="/images/award-badge-3.png" alt="" />
-                                <img src="/images/award-badge-5.png" alt="" />
-                                <img src="/images/award-badge-6.png" alt="" />
-                                <img src="/images/award-badge-7.png" alt="" />                                
+                                <Link href='/'><img src="/images/award-badge-1.png" alt="" /></Link>
+                                <Link href='/'><img src="/images/award-badge-2.png" alt="" /></Link>
+                                <Link href='/'><img src="/images/award-badge-3.png" alt="" /></Link>
+                                <Link href='/'><img src="/images/award-badge-5.png" alt="" /></Link>
+                                <Link href='/'><img src="/images/award-badge-6.png" alt="" /></Link>
+                                <Link href='/'><img src="/images/award-badge-7.png" alt="" /></Link>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row links_row">
                     <div className="col-3">
-                        <Link href='/'><p className='p_title'>Company Links</p></Link>
-                        <Link href='/'><p className='paragraph'>About Us</p></Link>
-                        <Link href='/'><p className='paragraph'>Contact Us</p></Link>
-                        <Link href='/'><p className='paragraph'>Careers</p></Link>
-                        <Link href='/'><p className='paragraph'>Our Team</p></Link>
-                        <Link href='/'><p className='paragraph'>Media Coverage</p></Link>
-                        <Link href='/'><p className='paragraph'>Referral Program</p></Link>
-                        <Link href='/'><p className='paragraph'>Case Studies</p></Link>
-                        <Link href='/'><p className='paragraph'>Client Testimonials</p></Link>
+                        <ul className="footer_links">
+                            <li className='p_title'>Company Links</li>
+                            <li><Link className='paragraph' href='/'>About Us</Link></li>
+                            <li><Link className='paragraph' href='/'>Contact Us</Link></li>
+                            <li><Link className='paragraph' href='/'>Careers</Link></li>
+                            <li><Link className='paragraph' href='/'>Our Team</Link></li>
+                            <li><Link className='paragraph' href='/'>Media Coverage</Link></li>
+                            <li><Link className='paragraph' href='/'>Referral Program</Link></li>
+                            <li><Link className='paragraph' href='/'>Case Studies</Link></li>
+                            <li><Link className='paragraph' href='/'>Client Testimonials</Link></li>
+                        </ul>
+                    </div>
+                    <div className="col-3">
+                        <ul className="footer_links">
+                            <li className='p_title'>Technologies</li>
+                            <li><Link className='paragraph' href='/'>React JS</Link></li>
+                            <li><Link className='paragraph' href='/'>Laravel</Link></li>
+                            <li><Link className='paragraph' href='/'>CodeIgniter</Link></li>
+                            <li><Link className='paragraph' href='/'>Node JS</Link></li>
+                            <li><Link className='paragraph' href='/'>WordPress</Link></li>
+                            <li><Link className='paragraph' href='/'>Magento</Link></li>
+                            <li><Link className='paragraph' href='/'>ReactJS</Link></li>
+                            <li><Link className='paragraph' href='/'>KnockoutJS</Link></li>
+                        </ul>
+                    </div>
+                    <div className="col-3">
+                        <ul className="footer_links">
+                            <li className='p_title'>Our Services</li>
+                            <li><Link className='paragraph' href='/'>Web Application</Link></li>
+                            <li><Link className='paragraph' href='/'>Mobile App Development</Link></li>
+                            <li><Link className='paragraph' href='/'>Microsoft Development</Link></li>
+                            <li><Link className='paragraph' href='/'>Front End Development</Link></li>
+                            <li><Link className='paragraph' href='/'>eCommerce Development</Link></li>
+                            <li><Link className='paragraph' href='/'>Cross-platform App</Link></li>
+                            <li><Link className='paragraph' href='/'>Opensource Development</Link></li>
+                            <li><Link className='paragraph' href='/'>UI/UX Design</Link></li>
+                        </ul>
+                    </div>
+                    <div className="col-3">
+                        <ul className="footer_links">
+                            <li className='p_title'>On Demand Solutions</li>
+                            <li><Link className='paragraph' href='/'>Taxi App</Link></li>
+                            <li><Link className='paragraph' href='/'>Healthcare App</Link></li>
+                            <li><Link className='paragraph' href='/'>Live Streaming App</Link></li>
+                            <li><Link className='paragraph' href='/'>Food Delivering App</Link></li>
+                            <li><Link className='paragraph' href='/'>ELearning App</Link></li>
+                            <li><Link className='paragraph' href='/'>eWallet App Solutions</Link></li>
+                            <li><Link className='paragraph' href='/'>Fantasy Sports App</Link></li>
+                            <li><Link className='paragraph' href='/'>Grocery Delivery App</Link></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="row mt-4">
+                    <div className="col-6 copyright">
+                        <p className='paragraph'>© 2022 All Rights Reserved By <Link className='paragraph' href='/'>Separateweb</Link></p>
+                    </div>
+                    <div className="col-6">
+                        <ul className="site_map">
+                            <li><Link className='paragraph' href='/'>Sitemap</Link></li>
+                            <i className="bi bi-dot"></i>
+                            <li><Link className='paragraph' href='/'>Terms of Use</Link></li>
+                            <i className="bi bi-dot"></i>
+                            <li><Link className='paragraph' href='/'>Privacy Policy</Link></li>
+                        </ul>
                     </div>
                 </div>
             </div>

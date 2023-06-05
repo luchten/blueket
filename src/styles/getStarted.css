@@ -10,6 +10,7 @@
     box-shadow: 0 19px 40px -10px rgb(255 79 0/25%);    
     transition: 0.25s;
     align-self: flex-start;
+    white-space: nowrap;
 }
 
 .get_started_blue {

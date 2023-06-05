@@ -51,6 +51,7 @@
 .main_menu_links li {    
     padding: 25px 0;
     margin: 0 10px;    
+    white-space: nowrap;
 }
 
 .main_menu_started {
@@ -130,4 +131,10 @@
 
 .main_submenu_links a:hover {
     color: #FF602F;
+}
+
+@media (max-width: 1200px) {
+    .main_menu_links {
+        display: none;
+    }
 }

@@ -63,3 +63,11 @@ li {
   margin: 0;
   padding: 0;
 }
+
+.inter_sans {
+  font-family: 'Inter', sans-serif;
+}
+
+.open_sans {
+  font-family: 'Open Sans', sans-serif;
+}
